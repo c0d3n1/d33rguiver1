@@ -1,12 +1,2261 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+-- Gui to Lua
+-- Version: 3.2
 
-]]--
+-- Instances:
 
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then v19=v0(v3(v30,1,1));return "";else local v81=0;local v82;while true do if (v81==0) then v82=v2(v0(v30,16));if v19 then local v98=v5(v82,v19);v19=nil;return v98;else return v82;end break;end end end end);local function v20(v31,v32,v33) if v33 then local v83=0 -0 ;local v84;while true do if (v83==(0 -0)) then v84=(v31/(2^(v32-(1 -(0 -0)))))%((2 + 0)^(((v33-(2 -1)) -(v32-(620 -(555 + 64)))) + (1 -0))) ;return v84-(v84%(932 -(857 + 17 + 57))) ;end end else local v85=568 -(367 + 201) ;local v86;while true do if (v85==((1884 -(892 + 65)) -(214 + 713))) then v86=((1 -0) + 1)^(v32-(4 -3)) ;return (((v31%(v86 + v86))>=v86) and (1 + 0)) or (0 + 0) ;end end end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35,v36=v1(v16,v18,v18 + (3 -1) );v18=v18 + (352 -(87 + 263)) ;return (v36 * (436 -(67 + 113))) + v35 ;end local function v23() local v37,v38,v39,v40=v1(v16,v18,v18 + 3 + 0 );v18=v18 + (9 -5) ;return (v40 * (12338840 + 4438376)) + (v39 * 65536) + (v38 * 256) + v37 ;end local function v24() local v41=v23();local v42=v23();local v43=3 -2 ;local v44=(v20(v42,953 -(802 + 150) ,53 -33 ) * ((3 -1)^((42 -(10 + 8)) + 8))) + v41 ;local v45=v20(v42,1018 -(915 + 82) ,87 -56 );local v46=((v20(v42,19 + 13 )==1) and  -(1 -0)) or 1 ;if (v45==(1187 -((4111 -3042) + 118))) then if (v44==(0 -0)) then return v46 * ((442 -(416 + 26)) -0) ;else v45=1;v43=0 + (0 -0) ;end elseif (v45==(3636 -1589)) then return ((v44==(0 + 0)) and (v46 * (1/(791 -(368 + 423))))) or (v46 * NaN) ;end return v8(v46,v45-1023 ) * (v43 + (v44/(2^(163 -111)))) ;end local function v25(v47) local v48;if  not v47 then local v87=0 + 0 + 0 ;while true do if ((0 -0)==v87) then v47=v23();if (v47==((359 + 79) -(145 + 293))) then return "";end break;end end end v48=v3(v16,v18,(v18 + v47) -(431 -(44 + (1158 -(201 + 571)))) );v18=v18 + v47 ;local v49={};for v64=1487 -(998 + 488) , #v48 do v49[v64]=v2(v1(v3(v48,v64,v64)));end return v6(v49);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v50=(function() return 0;end)();local v51=(function() return;end)();local v52=(function() return;end)();local v53=(function() return;end)();local v54=(function() return;end)();local v55=(function() return;end)();local v56=(function() return;end)();local v57=(function() return;end)();while true do local v66=(function() return 374 -(123 + 251) ;end)();while true do if (v66==0) then local v91=(function() return 0;end)();while true do if (0~=v91) then else if (v50==(0 -0)) then local v130=(function() return 698 -(208 + 490) ;end)();local v131=(function() return;end)();while true do if (v130~=(0 + 0)) then else v131=(function() return 0;end)();while true do if (v131==(1 + 1)) then v50=(function() return 1;end)();break;end if (v131~=0) then else v51=(function() return function(v166,v167,v168) local v169=(function() return 836 -(660 + 176) ;end)();while true do if (v169==0) then local v175=(function() return 0;end)();while true do if (v175~=0) then else v166[v167-#"!" ]=(function() return v168();end)();return v166,v167,v168;end end end end end;end)();v52=(function() return {};end)();v131=(function() return 1 + 0 ;end)();end if ((203 -(14 + 188))==v131) then v53=(function() return {};end)();v54=(function() return {};end)();v131=(function() return 2;end)();end end break;end end end if (v50==2) then v55[ #"91("]=(function() return v21();end)();for v139= #",",v23() do local v140=(function() return v21();end)();if (v20(v140, #"[", #"<")==(675 -(534 + 141))) then local v152=(function() return 0 + 0 ;end)();local v153=(function() return;end)();local v154=(function() return;end)();local v155=(function() return;end)();while true do if (v152~=0) then else local v161=(function() return 0;end)();local v162=(function() return;end)();while true do if (v161==(0 + 0)) then v162=(function() return 0 + 0 ;end)();while true do if (v162~=1) then else v152=(function() return 1 -0 ;end)();break;end if (v162==(0 -0)) then v153=(function() return v20(v140,2, #"asd");end)();v154=(function() return v20(v140, #"0313",16 -10 );end)();v162=(function() return 1;end)();end end break;end end end if (v152~=3) then else if (v20(v154, #"asd", #"-19")== #"~") then v155[ #".com"]=(function() return v57[v155[ #".dev"]];end)();end v52[v139]=(function() return v155;end)();break;end if (v152~=2) then else if (v20(v154, #",", #"|")== #"\\") then v155[2]=(function() return v57[v155[2]];end)();end if (v20(v154,2 + 0 ,2)~= #"\\") then else v155[ #"asd"]=(function() return v57[v155[ #"xxx"]];end)();end v152=(function() return 3;end)();end if (v152==(1 + 0)) then local v164=(function() return 396 -(115 + 281) ;end)();while true do if (v164==(2 -1)) then v152=(function() return 2 + 0 ;end)();break;end if (v164==0) then v155=(function() return {v22(),v22(),nil,nil};end)();if (v153==0) then local v176=(function() return 0 -0 ;end)();local v177=(function() return;end)();while true do if (v176~=(867 -(550 + 317))) then else v177=(function() return 0;end)();while true do if (v177==(0 -0)) then v155[ #"19("]=(function() return v22();end)();v155[ #".dev"]=(function() return v22();end)();break;end end break;end end elseif (v153== #",") then v155[ #"-19"]=(function() return v23();end)();elseif (v153==(2 -0)) then v155[ #"91("]=(function() return v23() -(2^(44 -28)) ;end)();elseif (v153== #"gha") then local v183=(function() return 285 -(134 + 151) ;end)();local v184=(function() return;end)();while true do if (0==v183) then v184=(function() return 1665 -(970 + 695) ;end)();while true do if (v184==(0 -0)) then v155[ #"91("]=(function() return v23() -(2^(2006 -(582 + 1408))) ;end)();v155[ #"asd1"]=(function() return v22();end)();break;end end break;end end end v164=(function() return 1;end)();end end end end end end for v141= #"!",v23() do v53,v141,v28=(function() return v51(v53,v141,v28);end)();end return v55;end v91=(function() return 1;end)();end if (1==v91) then v66=(function() return 3 -2 ;end)();break;end end end if (1==v66) then if (v50~=1) then else local v96=(function() return 0 -0 ;end)();local v97=(function() return;end)();while true do if (v96~=0) then else v97=(function() return 0 -0 ;end)();while true do if (v97==(1826 -(1195 + 629))) then v50=(function() return 2 -0 ;end)();break;end if (v97~=(242 -(187 + 54))) then else v57=(function() return {};end)();for v156= #"}",v56 do local v157=(function() return 0;end)();local v158=(function() return;end)();local v159=(function() return;end)();local v160=(function() return;end)();while true do if (v157~=(780 -(162 + 618))) then else local v165=(function() return 0;end)();while true do if (v165==(1 + 0)) then v157=(function() return 1;end)();break;end if (v165==(0 + 0)) then v158=(function() return 0 -0 ;end)();v159=(function() return nil;end)();v165=(function() return 1;end)();end end end if (v157==(1 -0)) then v160=(function() return nil;end)();while true do if (v158==(0 + 0)) then local v173=(function() return 1636 -(1373 + 263) ;end)();while true do if (v173~=(1000 -(451 + 549))) then else v159=(function() return v21();end)();v160=(function() return nil;end)();v173=(function() return 1 + 0 ;end)();end if (v173==(1 -0)) then v158=(function() return 1 -0 ;end)();break;end end end if ((1385 -(746 + 638))==v158) then if (v159== #">") then v160=(function() return v21()~=0 ;end)();elseif (v159==(1 + 1)) then v160=(function() return v24();end)();elseif (v159== #"19(") then v160=(function() return v25();end)();end v57[v156]=(function() return v160;end)();break;end end break;end end end v97=(function() return 2 -0 ;end)();end if (v97==0) then v55=(function() return {v52,v53,nil,v54};end)();v56=(function() return v23();end)();v97=(function() return 1582 -(1535 + 46) ;end)();end end break;end end end break;end end end end local function v29(v58,v59,v60) local v61=v58[1];local v62=v58[(1259 -(1043 + 214)) + 0 ];local v63=v58[1 + 2 ];return function(...) local v67=v61;local v68=v62;local v69=v63;local v70=v27;local v71=(2120 -1559) -(306 + 254) ;local v72= -(1 + 0);local v73={};local v74={...};local v75=v12("#",...) -(1468 -(899 + 568)) ;local v76={};local v77={};for v88=0 + 0 ,v75 do if ((v88>=v69) or (1804>=3275)) then v73[v88-v69 ]=v74[v88 + (2 -1) ];else v77[v88]=v74[v88 + (604 -(268 + 335)) ];end end local v78=(v75-v69) + (291 -(60 + 230)) ;local v79;local v80;while true do v79=v67[v71];v80=v79[1];if (v80<=(575 -(426 + 146))) then if ((v80<=(1 + 0)) or (1417>3629)) then if (v80>(1456 -((758 -476) + 1174))) then local v99;local v100,v101;local v102;local v103;v77[v79[813 -(569 + (822 -(361 + 219))) ]]={};v71=v71 + (2 -1) ;v79=v67[v71];v77[v79[1 + 1 ]]=v60[v79[(1347 -(53 + 267)) -(706 + 318) ]];v71=v71 + 1 ;v79=v67[v71];v77[v79[1253 -(721 + 530) ]]=v60[v79[(288 + 986) -(945 + 326) ]];v71=v71 + (2 -1) ;v79=v67[v71];v103=v79[2 + 0 ];v102=v77[v79[703 -(271 + (842 -(15 + 398))) ]];v77[v103 + 1 + 0 ]=v102;v77[v103]=v102[v79[4]];v71=v71 + (1501 -(1408 + 92)) ;v79=v67[v71];v77[v79[(2070 -(18 + 964)) -((1735 -1274) + 625) ]]=v79[1291 -(575 + 418 + 295) ];v71=v71 + 1 ;v79=v67[v71];v103=v79[2];v100,v101=v70(v77[v103](v13(v77,v103 + 1 + 0 ,v79[1174 -(418 + 753) ])));v72=(v101 + v103) -(1 + 0 + 0) ;v99=0 + (850 -(20 + 830)) ;for v133=v103,v72 do v99=v99 + 1 + 0 ;v77[v133]=v100[v99];end v71=v71 + 1 + 0 + 0 ;v79=v67[v71];v103=v79[531 -(406 + 123) ];v77[v103]=v77[v103](v13(v77,v103 + (1770 -(1749 + (146 -(116 + 10)))) ,v72));v71=v71 + 1 + 0 ;v79=v67[v71];v77[v79[1324 -(1249 + 73) ]]();v71=v71 + 1 + 0 ;v79=v67[v71];do return;end else do return;end end elseif (v80>(1147 -(466 + 679))) then local v119=v79[4 -2 ];local v120,v121=v70(v77[v119](v13(v77,v119 + (2 -1) ,v79[3])));v72=(v121 + v119) -(1901 -(106 + 1794)) ;local v122=0 + 0 ;for v136=v119,v72 do v122=v122 + 1 + 0 ;v77[v136]=v120[v122];end else local v123=0;local v124;local v125;while true do if (v123==(2 -1)) then v77[v124 + 1 ]=v125;v77[v124]=v125[v79[4]];break;end if (v123==(0 -0)) then v124=v79[116 -(4 + 110) ];v125=v77[v79[587 -(57 + 527) ]];v123=1428 -(41 + 1386) ;end end end elseif ((4795>402) and (v80<=(108 -(17 + 86)))) then if ((4813>3565) and (v80==(1 + 2 + (739 -(542 + 196))))) then v77[v79[3 -1 ]]();else v77[v79[5 -3 ]]=v60[v79[6 -3 ]];end elseif (v80<=(172 -(122 + 44))) then local v128=0 + 0 ;local v129;while true do if ((3912==3912) and (v128==0)) then v129=v79[(2 + 0) -0 ];v77[v129]=v77[v129](v13(v77,v129 + (3 -2) ,v72));break;end end elseif ((2821<=4824) and (v80==(6 + 1))) then v77[v79[1 + 1 ]]={};else v77[v79[3 -1 ]]=v79[68 -(30 + 35) ];end v71=v71 + 1 + 0 ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q7470476574034C3Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F633064336E312F642Q3372677569766572312F726566732F68656164732F6D61696E2F642Q337267756900094Q00017Q00122Q000100013Q00122Q000200023Q00202Q00020002000300122Q000400046Q000200046Q00013Q00024Q0001000100016Q00017Q00",v9(),...);
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Panel = Instance.new("Frame")
+local Title = Instance.new("Frame")
+local Logo = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Title_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Title_3 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Images = Instance.new("Folder")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local SimpleSpy = Instance.new("TextLabel")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel_13 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local ImageLabel_14 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel_15 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local ImageLabel_16 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local ImageLabel_17 = Instance.new("ImageLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local ImageLabel_18 = Instance.new("ImageLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local ImageLabel_19 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local ImageLabel_20 = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local ImageLabel_21 = Instance.new("ImageLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local ImageLabel_22 = Instance.new("ImageLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local ImageLabel_23 = Instance.new("ImageLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local Text = Instance.new("Folder")
+local Un = Instance.new("TextLabel")
+local Un_2 = Instance.new("TextLabel")
+local Un_3 = Instance.new("TextLabel")
+local Un_4 = Instance.new("TextLabel")
+local Un_5 = Instance.new("TextLabel")
+local Un_6 = Instance.new("TextLabel")
+local paste1 = Instance.new("TextButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local pastez2 = Instance.new("TextButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local pastez3 = Instance.new("TextButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local pastez4 = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local pastez5 = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local pastez6 = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local paste9 = Instance.new("TextButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local pastez7 = Instance.new("TextButton")
+local TextLabel_21 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local paste8 = Instance.new("TextButton")
+local TextLabel_22 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local pastez10 = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local _11 = Instance.new("TextButton")
+local TextLabel_24 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local _12 = Instance.new("TextButton")
+local TextLabel_25 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local _13 = Instance.new("TextButton")
+local TextLabel_26 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local _18 = Instance.new("TextButton")
+local TextLabel_27 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local _17 = Instance.new("TextButton")
+local TextLabel_28 = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local _16 = Instance.new("TextButton")
+local TextLabel_29 = Instance.new("TextLabel")
+local UICorner_23 = Instance.new("UICorner")
+local _21 = Instance.new("TextButton")
+local TextLabel_30 = Instance.new("TextLabel")
+local UICorner_24 = Instance.new("UICorner")
+local _20 = Instance.new("TextButton")
+local TextLabel_31 = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local _19 = Instance.new("TextButton")
+local TextLabel_32 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local _22 = Instance.new("TextButton")
+local TextLabel_33 = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local _23 = Instance.new("TextButton")
+local TextLabel_34 = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local Execute = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Clear = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Tutorial = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local _3 = Instance.new("TextLabel")
+local _4 = Instance.new("TextLabel")
+local _5 = Instance.new("TextLabel")
+local _6 = Instance.new("TextLabel")
+local _7 = Instance.new("TextLabel")
+local _8 = Instance.new("TextLabel")
+local _9 = Instance.new("TextLabel")
+local _10 = Instance.new("TextLabel")
+local _11_2 = Instance.new("TextLabel")
+local XButton = Instance.new("TextButton")
+local OpenButton = Instance.new("TextButton")
+local Verison = Instance.new("TextLabel")
+local Bane = Instance.new("Frame")
+local TextLabel_35 = Instance.new("TextLabel")
+local ImageLabel_24 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(89, 58, 33)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.279132426, 0, 0.167907566, 0)
+Frame.Size = UDim2.new(0, 708, 0, 534)
+Frame.ZIndex = 0
+
+Panel.Name = "Panel"
+Panel.Parent = Frame
+Panel.BackgroundColor3 = Color3.fromRGB(116, 87, 20)
+Panel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Panel.BorderSizePixel = 0
+Panel.Position = UDim2.new(0.0142606748, 0, 0.112284735, 0)
+Panel.Size = UDim2.new(0, 687, 0, 380)
+
+Title.Name = "Title"
+Title.Parent = Panel
+Title.BackgroundColor3 = Color3.fromRGB(116, 87, 20)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 3
+Title.Position = UDim2.new(0.00151299662, 0, -0.220193803, 0)
+Title.Size = UDim2.new(0, 496, 0, 83)
+
+Logo.Name = "Logo"
+Logo.Parent = Title
+Logo.BackgroundColor3 = Color3.fromRGB(116, 92, 72)
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(0.086647898, 0, 0.0779240653, 0)
+Logo.Size = UDim2.new(0, 92, 0, 74)
+
+ImageLabel.Parent = Logo
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0642620549, 0, 0.0455350094, 0)
+ImageLabel.Size = UDim2.new(0, 79, 0, 66)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=90925797469797"
+
+UICorner.Parent = ImageLabel
+
+UICorner_2.Parent = Logo
+
+Title_2.Name = "Title"
+Title_2.Parent = Title
+Title_2.BackgroundColor3 = Color3.fromRGB(88, 65, 15)
+Title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(0.28759864, 0, 0.339965403, 0)
+Title_2.Size = UDim2.new(0, 329, 0, 44)
+
+UICorner_3.Parent = Title_2
+
+Title_3.Name = "Title"
+Title_3.Parent = Title_2
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(0.352282673, 0, -0.130668819, 0)
+Title_3.Size = UDim2.new(0, 104, 0, 50)
+Title_3.Font = Enum.Font.SourceSans
+Title_3.Text = "d33rgui by c0d3n1"
+Title_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.TextSize = 33.000
+
+UICorner_4.Parent = Title_3
+
+UICorner_5.Parent = Panel
+
+TextBox.Parent = Panel
+TextBox.BackgroundColor3 = Color3.fromRGB(130, 88, 69)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0014556041, 0, 1.02894723, 0)
+TextBox.Size = UDim2.new(0, 685, 0, 33)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.Text = "Print (\"team d33rdud3 join today!\")"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_6.Parent = TextBox
+
+ScrollingFrame.Parent = Panel
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(116, 87, 20)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 3
+ScrollingFrame.Position = UDim2.new(0.000899624429, 0, -0.00378948008, 0)
+ScrollingFrame.Size = UDim2.new(0, 687, 0, 380)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 10, 0)
+
+Images.Name = "Images"
+Images.Parent = ScrollingFrame
+
+ImageLabel_2.Parent = Images
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_2.BorderSizePixel = 5
+ImageLabel_2.Position = UDim2.new(0.375545859, 0, 0.178948179, 0)
+ImageLabel_2.Size = UDim2.new(0, 155, 0, 163)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=82665862850568"
+
+ImageLabel_3.Parent = Images
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_3.BorderSizePixel = 5
+ImageLabel_3.Position = UDim2.new(0.687045217, 0, 0.103207238, 0)
+ImageLabel_3.Size = UDim2.new(0, 155, 0, 163)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=87372302604396"
+
+ImageLabel_4.Parent = Images
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_4.BorderSizePixel = 5
+ImageLabel_4.Position = UDim2.new(0.0509461425, 0, 0.102631658, 0)
+ImageLabel_4.Size = UDim2.new(0, 155, 0, 163)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=88337355760064"
+
+ImageLabel_5.Parent = Images
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_5.BorderSizePixel = 5
+ImageLabel_5.Position = UDim2.new(0.377001464, 0, 0.102631658, 0)
+ImageLabel_5.Size = UDim2.new(0, 155, 0, 163)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=102539638362874"
+
+ImageLabel_6.Parent = Images
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_6.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_6.BorderSizePixel = 5
+ImageLabel_6.Position = UDim2.new(0.688500822, 0, 0.018421052, 0)
+ImageLabel_6.Size = UDim2.new(0, 155, 0, 163)
+ImageLabel_6.Image = "http://www.roblox.com/asset/?id=107713715069548"
+
+ImageLabel_7.Parent = Images
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_7.BorderSizePixel = 5
+ImageLabel_7.Position = UDim2.new(0.0480349362, 0, 0.018421052, 0)
+ImageLabel_7.Size = UDim2.new(0, 155, 0, 163)
+ImageLabel_7.Image = "http://www.roblox.com/asset/?id=138162087449933"
+
+ImageLabel_8.Parent = Images
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_8.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_8.BorderSizePixel = 5
+ImageLabel_8.Position = UDim2.new(0.38427949, 0, 0.018421052, 0)
+ImageLabel_8.Size = UDim2.new(0, 155, 0, 163)
+
+ImageLabel_9.Parent = Images
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_9.BorderSizePixel = 5
+ImageLabel_9.Position = UDim2.new(0.0509461425, 0, 0.178916052, 0)
+ImageLabel_9.Size = UDim2.new(0, 155, 0, 163)
+
+SimpleSpy.Name = "Simple Spy"
+SimpleSpy.Parent = ImageLabel_9
+SimpleSpy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SimpleSpy.BackgroundTransparency = 1.000
+SimpleSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SimpleSpy.BorderSizePixel = 0
+SimpleSpy.Position = UDim2.new(0, 0, 0.343558282, 0)
+SimpleSpy.Size = UDim2.new(0, 155, 0, 50)
+SimpleSpy.Font = Enum.Font.SourceSans
+SimpleSpy.Text = "Simple Spy"
+SimpleSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
+SimpleSpy.TextScaled = true
+SimpleSpy.TextSize = 14.000
+SimpleSpy.TextWrapped = true
+
+ImageLabel_10.Parent = Images
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_10.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_10.BorderSizePixel = 5
+ImageLabel_10.Position = UDim2.new(0.688500643, 0, 0.178896055, 0)
+ImageLabel_10.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel.Parent = ImageLabel_10
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.00645121932, 0, 0.343558282, 0)
+TextLabel.Size = UDim2.new(0, 154, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "FartSaken(Needs key)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ImageLabel_11.Parent = Images
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_11.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_11.BorderSizePixel = 5
+ImageLabel_11.Position = UDim2.new(0.294032037, 0, 0.257859796, 0)
+ImageLabel_11.Size = UDim2.new(0, 270, 0, 215)
+ImageLabel_11.Image = "http://www.roblox.com/asset/?id=81134232127900"
+
+ImageLabel_12.Parent = Images
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_12.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_12.BorderSizePixel = 5
+ImageLabel_12.Position = UDim2.new(0.0465793312, 0, 0.344817221, 0)
+ImageLabel_12.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_2.Parent = ImageLabel_12
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Zepyhr's Diaster Gui"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+ImageLabel_13.Parent = Images
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_13.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_13.BorderSizePixel = 5
+ImageLabel_13.Position = UDim2.new(0.375999987, 0, 0.344999999, 0)
+ImageLabel_13.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_3.Parent = ImageLabel_13
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Rainbow Stairs Obby Ruiner"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+ImageLabel_14.Parent = Images
+ImageLabel_14.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_14.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_14.BorderSizePixel = 5
+ImageLabel_14.Position = UDim2.new(0.697000027, 0, 0.344999999, 0)
+ImageLabel_14.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_4.Parent = ImageLabel_14
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "FE Zombie Fling"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel_15.Parent = Images
+ImageLabel_15.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_15.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_15.BorderSizePixel = 5
+ImageLabel_15.Position = UDim2.new(0.697234333, 0, 0.432824224, 0)
+ImageLabel_15.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_5.Parent = ImageLabel_15
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Wisl Hub"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+ImageLabel_16.Parent = Images
+ImageLabel_16.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_16.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_16.BorderSizePixel = 5
+ImageLabel_16.Position = UDim2.new(0.0494905375, 0, 0.432987422, 0)
+ImageLabel_16.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_6.Parent = ImageLabel_16
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "FE invisiblity"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+ImageLabel_17.Parent = Images
+ImageLabel_17.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_17.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_17.BorderSizePixel = 5
+ImageLabel_17.Position = UDim2.new(0.377000004, 0, 0.432999998, 0)
+ImageLabel_17.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_7.Parent = ImageLabel_17
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "FE Chat Draw"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+ImageLabel_18.Parent = Images
+ImageLabel_18.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_18.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_18.BorderSizePixel = 5
+ImageLabel_18.Position = UDim2.new(0.694000006, 0, 0.513999999, 0)
+ImageLabel_18.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_8.Parent = ImageLabel_18
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "patchma hub"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+ImageLabel_19.Parent = Images
+ImageLabel_19.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_19.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_19.BorderSizePixel = 5
+ImageLabel_19.Position = UDim2.new(0.374088824, 0, 0.514210403, 0)
+ImageLabel_19.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_9.Parent = ImageLabel_19
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "FE Cat/Dog"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+ImageLabel_20.Parent = Images
+ImageLabel_20.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_20.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_20.BorderSizePixel = 5
+ImageLabel_20.Position = UDim2.new(0.0465793312, 0, 0.514084518, 0)
+ImageLabel_20.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_10.Parent = ImageLabel_20
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "FE fling all"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+ImageLabel_21.Parent = Images
+ImageLabel_21.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_21.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_21.BorderSizePixel = 5
+ImageLabel_21.Position = UDim2.new(0.694000006, 0, 0.513999999, 0)
+ImageLabel_21.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_11.Parent = ImageLabel_21
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "patchma hub"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+ImageLabel_22.Parent = Images
+ImageLabel_22.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_22.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_22.BorderSizePixel = 5
+ImageLabel_22.Position = UDim2.new(0.0465793312, 0, 0.592113316, 0)
+ImageLabel_22.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_12.Parent = ImageLabel_22
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "fe fling John doe placeholder"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+ImageLabel_23.Parent = Images
+ImageLabel_23.BackgroundColor3 = Color3.fromRGB(89, 76, 51)
+ImageLabel_23.BorderColor3 = Color3.fromRGB(102, 51, 0)
+ImageLabel_23.BorderSizePixel = 5
+ImageLabel_23.Position = UDim2.new(0.374000013, 0, 0.592000008, 0)
+ImageLabel_23.Size = UDim2.new(0, 155, 0, 163)
+
+TextLabel_13.Parent = ImageLabel_23
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.0129032256, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0, 153, 0, 163)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "FE ChatClear"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+Text.Name = "Text"
+Text.Parent = ScrollingFrame
+
+Un.Name = "Un"
+Un.Parent = Text
+Un.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Un.BackgroundTransparency = 1.000
+Un.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Un.BorderSizePixel = 0
+Un.Position = UDim2.new(0.41048035, 0, 0.047361996, 0)
+Un.Size = UDim2.new(0, 123, 0, 50)
+Un.Font = Enum.Font.SourceSans
+Un.Text = "Unnamed Animation Gui"
+Un.TextColor3 = Color3.fromRGB(0, 0, 0)
+Un.TextScaled = true
+Un.TextSize = 14.000
+Un.TextWrapped = true
+
+Un_2.Name = "Un"
+Un_2.Parent = Text
+Un_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Un_2.BackgroundTransparency = 1.000
+Un_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Un_2.BorderSizePixel = 0
+Un_2.Position = UDim2.new(0.721979618, 0, 0.0473684222, 0)
+Un_2.Size = UDim2.new(0, 123, 0, 50)
+Un_2.Font = Enum.Font.SourceSans
+Un_2.Text = "Da feets(check the pastebin lol)"
+Un_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Un_2.TextScaled = true
+Un_2.TextSize = 14.000
+Un_2.TextWrapped = true
+
+Un_3.Name = "Un"
+Un_3.Parent = Text
+Un_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Un_3.BackgroundTransparency = 1.000
+Un_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Un_3.BorderSizePixel = 0
+Un_3.Position = UDim2.new(0.273653567, 0, 0.799842358, 0)
+Un_3.Size = UDim2.new(0, 308, 0, 243)
+Un_3.Font = Enum.Font.SourceSans
+Un_3.Text = "MOST SCRIPTS ARE FE ANYBODY CAN SEE IT GOOOOO TRY IT ALL NOWWWW!!11"
+Un_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Un_3.TextScaled = true
+Un_3.TextSize = 14.000
+Un_3.TextWrapped = true
+
+Un_4.Name = "Un"
+Un_4.Parent = Text
+Un_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Un_4.BackgroundTransparency = 1.000
+Un_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Un_4.BorderSizePixel = 0
+Un_4.Position = UDim2.new(0.272197962, 0, 0.834642351, 0)
+Un_4.Size = UDim2.new(0, 308, 0, 243)
+Un_4.Font = Enum.Font.SourceSans
+Un_4.Text = "ps : team d33rdud3 get in nowww!1"
+Un_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Un_4.TextSize = 14.000
+Un_4.TextWrapped = true
+
+Un_5.Name = "Un"
+Un_5.Parent = Text
+Un_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Un_5.BackgroundTransparency = 1.000
+Un_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Un_5.BorderSizePixel = 0
+Un_5.Position = UDim2.new(0.289665222, 0, 0.848441839, 0)
+Un_5.Size = UDim2.new(0, 308, 0, 243)
+Un_5.Font = Enum.Font.SourceSans
+Un_5.Text = "also most scripts may not work for your executor so if it fails to execute it is not our problem."
+Un_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Un_5.TextSize = 14.000
+Un_5.TextWrapped = true
+
+Un_6.Name = "Un"
+Un_6.Parent = Text
+Un_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Un_6.BackgroundTransparency = 1.000
+Un_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Un_6.BorderSizePixel = 0
+Un_6.Position = UDim2.new(0.0713246018, 0, 0.00154194084, 0)
+Un_6.Size = UDim2.new(0, 588, 0, 50)
+Un_6.Font = Enum.Font.SourceSans
+Un_6.Text = "keep in mind some scripts might not work so you might have to use a different exector"
+Un_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Un_6.TextScaled = true
+Un_6.TextSize = 14.000
+Un_6.TextWrapped = true
+
+paste1.Name = "paste1"
+paste1.Parent = ScrollingFrame
+paste1.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+paste1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+paste1.BorderSizePixel = 0
+paste1.Position = UDim2.new(0.0509461425, 0, 0.0690660998, 0)
+paste1.Size = UDim2.new(0, 155, 0, 57)
+paste1.Font = Enum.Font.SourceSans
+paste1.Text = "paste"
+paste1.TextColor3 = Color3.fromRGB(0, 0, 0)
+paste1.TextSize = 24.000
+paste1.TextWrapped = true
+
+TextLabel_14.Parent = paste1
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_14.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source\"))()"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextTransparency = 1.000
+
+UICorner_7.Parent = TextLabel_14
+
+UICorner_8.Parent = paste1
+
+pastez2.Name = "pastez2"
+pastez2.Parent = ScrollingFrame
+pastez2.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez2.BorderSizePixel = 0
+pastez2.Position = UDim2.new(0.38719067, 0, 0.0694438741, 0)
+pastez2.Size = UDim2.new(0, 155, 0, 57)
+pastez2.Font = Enum.Font.SourceSans
+pastez2.Text = "paste"
+pastez2.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez2.TextSize = 24.000
+pastez2.TextWrapped = true
+
+TextLabel_15.Parent = pastez2
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_15.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt\"))()"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextTransparency = 1.000
+
+UICorner_9.Parent = pastez2
+
+pastez3.Name = "pastez3"
+pastez3.Parent = ScrollingFrame
+pastez3.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez3.BorderSizePixel = 0
+pastez3.Position = UDim2.new(0.688500643, 0, 0.0688733533, 0)
+pastez3.Size = UDim2.new(0, 155, 0, 57)
+pastez3.Font = Enum.Font.SourceSans
+pastez3.Text = "paste"
+pastez3.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez3.TextSize = 24.000
+pastez3.TextWrapped = true
+
+TextLabel_16.Parent = pastez3
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_16.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "loadstring(game:HttpGet(\"https://pastebin.com/tUcMvB4U\"))()"
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextTransparency = 1.000
+
+UICorner_10.Parent = pastez3
+
+pastez4.Name = "pastez4"
+pastez4.Parent = ScrollingFrame
+pastez4.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez4.BorderSizePixel = 0
+pastez4.Position = UDim2.new(0.685988426, 0, 0.158423573, 0)
+pastez4.Size = UDim2.new(0, 155, 0, 57)
+pastez4.Font = Enum.Font.SourceSans
+pastez4.Text = "paste"
+pastez4.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez4.TextSize = 24.000
+pastez4.TextWrapped = true
+
+TextLabel_17.Parent = pastez4
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_17.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "loadstring(game:HttpGet(\"https://pastefy.app/ZhKVgCK3/raw\"))()"
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextTransparency = 1.000
+
+UICorner_11.Parent = pastez4
+
+pastez5.Name = "pastez5"
+pastez5.Parent = ScrollingFrame
+pastez5.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez5.BorderSizePixel = 0
+pastez5.Position = UDim2.new(0.375944763, 0, 0.15842101, 0)
+pastez5.Size = UDim2.new(0, 155, 0, 57)
+pastez5.Font = Enum.Font.SourceSans
+pastez5.Text = "paste"
+pastez5.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez5.TextSize = 24.000
+pastez5.TextWrapped = true
+
+TextLabel_18.Parent = pastez5
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_18.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "loadstring(game:HttpGet(\"https://pastefy.app/yw5RdVu3/raw\"))()"
+TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextTransparency = 1.000
+
+UICorner_12.Parent = pastez5
+
+pastez6.Name = "pastez6"
+pastez6.Parent = ScrollingFrame
+pastez6.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez6.BorderSizePixel = 0
+pastez6.Position = UDim2.new(0.0498894453, 0, 0.15842101, 0)
+pastez6.Size = UDim2.new(0, 155, 0, 57)
+pastez6.Font = Enum.Font.SourceSans
+pastez6.Text = "paste"
+pastez6.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez6.TextSize = 24.000
+pastez6.TextWrapped = true
+
+TextLabel_19.Parent = pastez6
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_19.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "loadstring(game:HttpGet(\"https://pastefy.app/ZhKVgCK3/raw\"))()"
+TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextTransparency = 1.000
+
+UICorner_13.Parent = pastez6
+
+paste9.Name = "paste9"
+paste9.Parent = ScrollingFrame
+paste9.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+paste9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+paste9.BorderSizePixel = 0
+paste9.Position = UDim2.new(0.685589433, 0, 0.225843489, 0)
+paste9.Size = UDim2.new(0, 155, 0, 57)
+paste9.Font = Enum.Font.SourceSans
+paste9.Text = "paste"
+paste9.TextColor3 = Color3.fromRGB(0, 0, 0)
+paste9.TextSize = 24.000
+paste9.TextWrapped = true
+
+TextLabel_20.Parent = paste9
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_20.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_20.Font = Enum.Font.SourceSans
+TextLabel_20.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua\"))()"
+TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextTransparency = 1.000
+
+UICorner_14.Parent = paste9
+
+pastez7.Name = "pastez7"
+pastez7.Parent = ScrollingFrame
+pastez7.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez7.BorderSizePixel = 0
+pastez7.Position = UDim2.new(0.375545859, 0, 0.225141421, 0)
+pastez7.Size = UDim2.new(0, 155, 0, 57)
+pastez7.Font = Enum.Font.SourceSans
+pastez7.Text = "paste"
+pastez7.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez7.TextSize = 24.000
+pastez7.TextWrapped = true
+
+TextLabel_21.Parent = pastez7
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_21.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_21.Font = Enum.Font.SourceSans
+TextLabel_21.Text = "loadstring(game:HttpGet(\"https://pastefy.app/YsJgITXR/raw\"))()"
+TextLabel_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextTransparency = 1.000
+
+UICorner_15.Parent = pastez7
+
+paste8.Name = "paste8"
+paste8.Parent = ScrollingFrame
+paste8.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+paste8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+paste8.BorderSizePixel = 0
+paste8.Position = UDim2.new(0.0509461425, 0, 0.225551963, 0)
+paste8.Size = UDim2.new(0, 155, 0, 57)
+paste8.Font = Enum.Font.SourceSans
+paste8.Text = "paste"
+paste8.TextColor3 = Color3.fromRGB(0, 0, 0)
+paste8.TextSize = 24.000
+paste8.TextWrapped = true
+
+TextLabel_22.Parent = paste8
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_22.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_22.Font = Enum.Font.SourceSans
+TextLabel_22.Text = "loadstring(game:HttpGet(\"https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua\"))()"
+TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextTransparency = 1.000
+
+UICorner_16.Parent = paste8
+
+pastez10.Name = "pastez10"
+pastez10.Parent = ScrollingFrame
+pastez10.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+pastez10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pastez10.BorderSizePixel = 0
+pastez10.Position = UDim2.new(0.38427949, 0, 0.31543234, 0)
+pastez10.Size = UDim2.new(0, 155, 0, 57)
+pastez10.Font = Enum.Font.SourceSans
+pastez10.Text = "paste"
+pastez10.TextColor3 = Color3.fromRGB(0, 0, 0)
+pastez10.TextSize = 24.000
+pastez10.TextWrapped = true
+
+TextLabel_23.Parent = pastez10
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_23.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_23.Font = Enum.Font.SourceSans
+TextLabel_23.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix\"))()"
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextTransparency = 1.000
+
+UICorner_17.Parent = pastez10
+
+_11.Name = "11"
+_11.Parent = ScrollingFrame
+_11.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_11.BorderSizePixel = 0
+_11.Position = UDim2.new(0.0509461425, 0, 0.39762494, 0)
+_11.Size = UDim2.new(0, 155, 0, 57)
+_11.Font = Enum.Font.SourceSans
+_11.Text = "paste"
+_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+_11.TextSize = 24.000
+_11.TextWrapped = true
+
+TextLabel_24.Parent = _11
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_24.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_24.Font = Enum.Font.SourceSans
+TextLabel_24.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Unknownlodfc/Zephyr/main/Zephyr%20%7C%20Natural%20Disaster%20Survival\"))()"
+TextLabel_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextTransparency = 1.000
+
+UICorner_18.Parent = _11
+
+_12.Name = "12"
+_12.Parent = ScrollingFrame
+_12.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_12.BorderSizePixel = 0
+_12.Position = UDim2.new(0.375545859, 0, 0.397302002, 0)
+_12.Size = UDim2.new(0, 155, 0, 57)
+_12.Font = Enum.Font.SourceSans
+_12.Text = "paste"
+_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+_12.TextSize = 24.000
+_12.TextWrapped = true
+
+TextLabel_25.Parent = _12
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_25.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_25.Font = Enum.Font.SourceSans
+TextLabel_25.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hellohellohell012321/obby-ruiner/main/obby-ruiner.lua\",true))()\\nend)"
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextTransparency = 1.000
+
+UICorner_19.Parent = _12
+
+_13.Name = "13"
+_13.Parent = ScrollingFrame
+_13.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_13.BorderSizePixel = 0
+_13.Position = UDim2.new(0.697234333, 0, 0.396704167, 0)
+_13.Size = UDim2.new(0, 155, 0, 57)
+_13.Font = Enum.Font.SourceSans
+_13.Text = "paste"
+_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+_13.TextSize = 24.000
+_13.TextWrapped = true
+
+TextLabel_26.Parent = _13
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_26.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_26.Font = Enum.Font.SourceSans
+TextLabel_26.Text = "loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))()"
+TextLabel_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextTransparency = 1.000
+
+UICorner_20.Parent = _13
+
+_18.Name = "18"
+_18.Parent = ScrollingFrame
+_18.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_18.BorderSizePixel = 0
+_18.Position = UDim2.new(0.697234273, 0, 0.485884964, 0)
+_18.Size = UDim2.new(0, 155, 0, 57)
+_18.Font = Enum.Font.SourceSans
+_18.Text = "paste"
+_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+_18.TextSize = 24.000
+_18.TextWrapped = true
+
+TextLabel_27.Parent = _18
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_27.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/wisl884/wisl-i-Universal-Project1/main/Wisl'i%20Universal%20Project.lua\", true))()"
+TextLabel_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextTransparency = 1.000
+
+UICorner_21.Parent = _18
+
+_17.Name = "17"
+_17.Parent = ScrollingFrame
+_17.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_17.BorderSizePixel = 0
+_17.Position = UDim2.new(0.377000004, 0, 0.486000001, 0)
+_17.Size = UDim2.new(0, 155, 0, 57)
+_17.Font = Enum.Font.SourceSans
+_17.Text = "paste"
+_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+_17.TextSize = 24.000
+_17.TextWrapped = true
+
+TextLabel_28.Parent = _17
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_28.BorderSizePixel = 0
+TextLabel_28.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_28.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_28.Font = Enum.Font.SourceSans
+TextLabel_28.Text = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AKadminlol/Chatdraw/refs/heads/main/Chattdraw\"))()"
+TextLabel_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextTransparency = 1.000
+
+UICorner_22.Parent = _17
+
+_16.Name = "16"
+_16.Parent = ScrollingFrame
+_16.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_16.BorderSizePixel = 0
+_16.Position = UDim2.new(0.0489999987, 0, 0.486000001, 0)
+_16.Size = UDim2.new(0, 155, 0, 57)
+_16.Font = Enum.Font.SourceSans
+_16.Text = "paste"
+_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+_16.TextSize = 24.000
+_16.TextWrapped = true
+
+TextLabel_29.Parent = _16
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_29.BorderSizePixel = 0
+TextLabel_29.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_29.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_29.Font = Enum.Font.SourceSans
+TextLabel_29.Text = "loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()"
+TextLabel_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextTransparency = 1.000
+
+UICorner_23.Parent = _16
+
+_21.Name = "21"
+_21.Parent = ScrollingFrame
+_21.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_21.BorderSizePixel = 0
+_21.Position = UDim2.new(0.694000006, 0, 0.568000019, 0)
+_21.Size = UDim2.new(0, 155, 0, 57)
+_21.Font = Enum.Font.SourceSans
+_21.Text = "paste"
+_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+_21.TextSize = 24.000
+_21.TextWrapped = true
+
+TextLabel_30.Parent = _21
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.BorderSizePixel = 0
+TextLabel_30.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_30.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_30.Font = Enum.Font.SourceSans
+TextLabel_30.Text = "loadstring(game:HttpGet(\"https://pastebin.com/raw/gXmsBpFw\"))()"
+TextLabel_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextTransparency = 1.000
+
+UICorner_24.Parent = _21
+
+_20.Name = "20"
+_20.Parent = ScrollingFrame
+_20.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_20.BorderSizePixel = 0
+_20.Position = UDim2.new(0.374000013, 0, 0.568000019, 0)
+_20.Size = UDim2.new(0, 155, 0, 57)
+_20.Font = Enum.Font.SourceSans
+_20.Text = "paste"
+_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+_20.TextSize = 24.000
+_20.TextWrapped = true
+
+TextLabel_31.Parent = _20
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_31.BorderSizePixel = 0
+TextLabel_31.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_31.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_31.Font = Enum.Font.SourceSans
+TextLabel_31.Text = "loadstring(game:HttpGet(\"https://pastebin.com/raw/DJGX6uf5\"))()"
+TextLabel_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_31.TextSize = 14.000
+TextLabel_31.TextTransparency = 1.000
+
+UICorner_25.Parent = _20
+
+_19.Name = "19"
+_19.Parent = ScrollingFrame
+_19.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_19.BorderSizePixel = 0
+_19.Position = UDim2.new(0.0469999984, 0, 0.568000019, 0)
+_19.Size = UDim2.new(0, 155, 0, 57)
+_19.Font = Enum.Font.SourceSans
+_19.Text = "paste"
+_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+_19.TextSize = 24.000
+_19.TextWrapped = true
+
+TextLabel_32.Parent = _19
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_32.BorderSizePixel = 0
+TextLabel_32.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_32.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_32.Font = Enum.Font.SourceSans
+TextLabel_32.Text = "loadstring(game:HttpGet(\"https://pastebin.com/raw/zqyDSUWX\"))()"
+TextLabel_32.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_32.TextSize = 14.000
+TextLabel_32.TextTransparency = 1.000
+
+UICorner_26.Parent = _19
+
+_22.Name = "22"
+_22.Parent = ScrollingFrame
+_22.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_22.BorderSizePixel = 0
+_22.Position = UDim2.new(0.0455443971, 0, 0.63947612, 0)
+_22.Size = UDim2.new(0, 155, 0, 57)
+_22.Font = Enum.Font.SourceSans
+_22.Text = "paste"
+_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+_22.TextSize = 24.000
+_22.TextWrapped = true
+
+TextLabel_33.Parent = _22
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_33.BorderSizePixel = 0
+TextLabel_33.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_33.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_33.Font = Enum.Font.SourceSans
+TextLabel_33.Text = "loadstring(game:HttpGet(\"https://pastebin.com/raw/kyUrtQvg\"))()"
+TextLabel_33.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_33.TextSize = 14.000
+TextLabel_33.TextTransparency = 1.000
+
+UICorner_27.Parent = _22
+
+_23.Name = "23"
+_23.Parent = ScrollingFrame
+_23.BackgroundColor3 = Color3.fromRGB(10, 144, 54)
+_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_23.BorderSizePixel = 0
+_23.Position = UDim2.new(0.374000013, 0, 0.638999999, 0)
+_23.Size = UDim2.new(0, 155, 0, 57)
+_23.Font = Enum.Font.SourceSans
+_23.Text = "paste"
+_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+_23.TextSize = 24.000
+_23.TextWrapped = true
+
+TextLabel_34.Parent = _23
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_34.BorderSizePixel = 0
+TextLabel_34.Position = UDim2.new(0, 0, 0.200000003, 0)
+TextLabel_34.Size = UDim2.new(0, 155, 0, 25)
+TextLabel_34.Font = Enum.Font.SourceSans
+TextLabel_34.Text = "loadstring(game:HttpGet(\"https://pastebin.com/raw/67JjmzCp\"))()"
+TextLabel_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_34.TextSize = 14.000
+TextLabel_34.TextTransparency = 1.000
+
+UICorner_28.Parent = _23
+
+Execute.Name = "Execute"
+Execute.Parent = Panel
+Execute.BackgroundColor3 = Color3.fromRGB(102, 87, 57)
+Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0, 0, 1.14736855, 0)
+Execute.Size = UDim2.new(0, 200, 0, 32)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "execute"
+Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute.TextSize = 14.000
+
+UICorner_29.Parent = Execute
+
+Clear.Name = "Clear"
+Clear.Parent = Panel
+Clear.BackgroundColor3 = Color3.fromRGB(102, 87, 57)
+Clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.701601148, 0, 1.15263164, 0)
+Clear.Size = UDim2.new(0, 200, 0, 32)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "clear"
+Clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clear.TextSize = 14.000
+
+UICorner_30.Parent = Clear
+
+Tutorial.Name = "Tutorial"
+Tutorial.Parent = Panel
+Tutorial.BackgroundColor3 = Color3.fromRGB(109, 76, 53)
+Tutorial.BackgroundTransparency = 0.600
+Tutorial.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tutorial.BorderSizePixel = 0
+Tutorial.Position = UDim2.new(0.754002988, 0, -0.136842102, 0)
+Tutorial.Size = UDim2.new(0, 164, 0, 42)
+Tutorial.Font = Enum.Font.SourceSans
+Tutorial.Text = "how teh scripts work"
+Tutorial.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tutorial.TextSize = 16.000
+
+UICorner_31.Parent = Tutorial
+
+Frame_2.Parent = Panel
+Frame_2.BackgroundColor3 = Color3.fromRGB(89, 58, 33)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 3
+Frame_2.Position = UDim2.new(1.02585733, 0, -0.158408314, 0)
+Frame_2.Size = UDim2.new(0, 194, 0, 320)
+Frame_2.Visible = false
+
+ScrollingFrame_2.Parent = Frame_2
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(89, 58, 33)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Size = UDim2.new(0, 194, 0, 320)
+
+_1.Name = "1"
+_1.Parent = ScrollingFrame_2
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.0824742243, 0, 0.0256098751, 0)
+_1.Size = UDim2.new(0, 167, 0, 41)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "how to uze script"
+_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1.TextSize = 14.000
+
+_2.Name = "2"
+_2.Parent = ScrollingFrame_2
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.0670103058, 0, 0.0918447524, 0)
+_2.Size = UDim2.new(0, 167, 0, 41)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "-- Infinite yield : dud its self explanatory lol"
+_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2.TextScaled = true
+_2.TextSize = 11.000
+_2.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = ScrollingFrame_2
+_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3.BackgroundTransparency = 1.000
+_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_3.BorderSizePixel = 0
+_3.Position = UDim2.new(0.0824742243, 0, 0.183689505, 0)
+_3.Size = UDim2.new(0, 167, 0, 41)
+_3.Font = Enum.Font.SourceSans
+_3.Text = "-- UAG : animations and stuff"
+_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3.TextScaled = true
+_3.TextSize = 11.000
+_3.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = ScrollingFrame_2
+_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4.BackgroundTransparency = 1.000
+_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_4.BorderSizePixel = 0
+_4.Position = UDim2.new(0.0670103058, 0, 0.26600799, 0)
+_4.Size = UDim2.new(0, 167, 0, 41)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "-- Da Feets : its in the pastebin"
+_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4.TextScaled = true
+_4.TextSize = 11.000
+_4.TextWrapped = true
+
+_5.Name = "5"
+_5.Parent = ScrollingFrame_2
+_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_5.BackgroundTransparency = 1.000
+_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_5.BorderSizePixel = 0
+_5.Position = UDim2.new(0.0670103058, 0, 0.366391003, 0)
+_5.Size = UDim2.new(0, 167, 0, 41)
+_5.Font = Enum.Font.SourceSans
+_5.Text = "-- Fe Figher : u fight"
+_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_5.TextScaled = true
+_5.TextSize = 11.000
+_5.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = ScrollingFrame_2
+_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_6.BackgroundTransparency = 1.000
+_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_6.BorderSizePixel = 0
+_6.Position = UDim2.new(0.0824742243, 0, 0.454656988, 0)
+_6.Size = UDim2.new(0, 167, 0, 41)
+_6.Font = Enum.Font.SourceSans
+_6.Text = "-- Anim Logger : If u walk it record the animation"
+_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+_6.TextScaled = true
+_6.TextSize = 11.000
+_6.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = ScrollingFrame_2
+_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_7.BackgroundTransparency = 1.000
+_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_7.BorderSizePixel = 0
+_7.Position = UDim2.new(0.0824742243, 0, 0.540563941, 0)
+_7.Size = UDim2.new(0, 167, 0, 41)
+_7.Font = Enum.Font.SourceSans
+_7.Text = "-- Dash : useless really"
+_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+_7.TextScaled = true
+_7.TextSize = 11.000
+_7.TextWrapped = true
+
+_8.Name = "8"
+_8.Parent = ScrollingFrame_2
+_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_8.BackgroundTransparency = 1.000
+_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_8.BorderSizePixel = 0
+_8.Position = UDim2.new(0.0670103058, 0, 0.618627906, 0)
+_8.Size = UDim2.new(0, 167, 0, 41)
+_8.Font = Enum.Font.SourceSans
+_8.Text = "-- Simple Spy : useless rn unless u got ember"
+_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+_8.TextScaled = true
+_8.TextSize = 11.000
+_8.TextWrapped = true
+
+_9.Name = "9"
+_9.Parent = ScrollingFrame_2
+_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_9.BackgroundTransparency = 1.000
+_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_9.BorderSizePixel = 0
+_9.Position = UDim2.new(0.0670103058, 0, 0.702148438, 0)
+_9.Size = UDim2.new(0, 167, 0, 41)
+_9.Font = Enum.Font.SourceSans
+_9.Text = "-- FE Scp096 : just scp 096"
+_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+_9.TextScaled = true
+_9.TextSize = 11.000
+_9.TextWrapped = true
+
+_10.Name = "10"
+_10.Parent = ScrollingFrame_2
+_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_10.BackgroundTransparency = 1.000
+_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_10.BorderSizePixel = 0
+_10.Position = UDim2.new(0.0670103058, 0, 0.782421887, 0)
+_10.Size = UDim2.new(0, 167, 0, 41)
+_10.Font = Enum.Font.SourceSans
+_10.Text = "-- FartSaken : For Forsaken recommended to use Ember for inf stamina"
+_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10.TextScaled = true
+_10.TextSize = 11.000
+_10.TextWrapped = true
+
+_11_2.Name = "11"
+_11_2.Parent = ScrollingFrame_2
+_11_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_11_2.BackgroundTransparency = 1.000
+_11_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_11_2.BorderSizePixel = 0
+_11_2.Position = UDim2.new(0.0824742243, 0, 0.870312512, 0)
+_11_2.Size = UDim2.new(0, 167, 0, 41)
+_11_2.Font = Enum.Font.SourceSans
+_11_2.Text = "-- AquaMatrix : UAG but alot more features"
+_11_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_11_2.TextScaled = true
+_11_2.TextSize = 11.000
+_11_2.TextWrapped = true
+
+XButton.Name = "XButton"
+XButton.Parent = Frame
+XButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+XButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+XButton.BorderSizePixel = 3
+XButton.Position = UDim2.new(0.976460457, 0, -0.0308922473, 0)
+XButton.Size = UDim2.new(0, 33, 0, 30)
+XButton.Font = Enum.Font.SourceSans
+XButton.Text = "X"
+XButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+XButton.TextScaled = true
+XButton.TextSize = 14.000
+XButton.TextWrapped = true
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = ScreenGui
+OpenButton.BackgroundColor3 = Color3.fromRGB(135, 68, 0)
+OpenButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.BorderSizePixel = 3
+OpenButton.Position = UDim2.new(0.00710339285, 0, 0.447332501, 0)
+OpenButton.Size = UDim2.new(0, 200, 0, 50)
+OpenButton.ZIndex = 0
+OpenButton.Font = Enum.Font.SourceSans
+OpenButton.Text = "c0d3n1gui"
+OpenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.TextScaled = true
+OpenButton.TextSize = 14.000
+OpenButton.TextWrapped = true
+
+Verison.Name = "Verison"
+Verison.Parent = ScreenGui
+Verison.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Verison.BackgroundTransparency = 1.000
+Verison.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Verison.BorderSizePixel = 0
+Verison.Position = UDim2.new(0.769001484, 0, 0.931034505, 0)
+Verison.Size = UDim2.new(0, 310, 0, 50)
+Verison.Font = Enum.Font.SourceSans
+Verison.Text = "c0d3n1gui Ver : 1.1."
+Verison.TextColor3 = Color3.fromRGB(0, 0, 0)
+Verison.TextScaled = true
+Verison.TextSize = 14.000
+Verison.TextTransparency = 0.500
+Verison.TextWrapped = true
+
+Bane.Name = "Bane"
+Bane.Parent = ScreenGui
+Bane.BackgroundColor3 = Color3.fromRGB(140, 94, 56)
+Bane.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bane.BorderSizePixel = 0
+Bane.Size = UDim2.new(2, 100, 2, 100)
+Bane.ZIndex = 0
+
+TextLabel_35.Parent = Bane
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_35.BorderSizePixel = 0
+TextLabel_35.Position = UDim2.new(-0.386129081, 0, -0.372864127, 0)
+TextLabel_35.Size = UDim2.new(1, 707, 1, 329)
+TextLabel_35.Font = Enum.Font.SourceSans
+TextLabel_35.Text = "team d33rdud3 join today!"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextScaled = true
+TextLabel_35.TextSize = 14.000
+TextLabel_35.TextWrapped = true
+
+ImageLabel_24.Parent = Bane
+ImageLabel_24.BackgroundColor3 = Color3.fromRGB(170, 85, 0)
+ImageLabel_24.BackgroundTransparency = 1.000
+ImageLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_24.BorderSizePixel = 0
+ImageLabel_24.Position = UDim2.new(0.174209774, 0, 0.279354841, 0)
+ImageLabel_24.Size = UDim2.new(0, 371, 0, 275)
+ImageLabel_24.Image = "http://www.roblox.com/asset/?id=90925797469797"
+
+-- Scripts:
+
+local function DYDJ_fake_script() -- ScreenGui.4 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	-- Wait for the GUI to load
+	local screenGui = script.Parent
+	local splashFrame = screenGui:WaitForChild("Bane") -- Make sure the Frame is named "Bane"
+	local imageLabel = splashFrame:WaitForChild("ImageLabel") -- Replace with the name of your ImageLabel
+	local titleLabel = splashFrame:WaitForChild("TextLabel") -- Replace with the name of your TextLabel
+	
+	-- Optional: Add a sound effect for the animation
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://YOUR_SOUND_ID" -- Replace with your sound ID
+	sound.Parent = splashFrame
+	
+	-- Get TweenService
+	local TweenService = game:GetService("TweenService")
+	
+	-- Ensure the ScreenGui ignores GUI insets
+	screenGui.IgnoreGuiInset = true
+	
+	-- Ensure the Frame covers the entire screen
+	splashFrame.Size = UDim2.new(1, 0, 1, 0) -- Full screen
+	splashFrame.Position = UDim2.new(0, 0, 0, 0) -- Top-left corner
+	splashFrame.AnchorPoint = Vector2.new(0, 0) -- Anchor to top-left corner
+	splashFrame.BackgroundColor3 = Color3.fromRGB(140, 94, 56) -- Set frame color to 140, 94, 56
+	splashFrame.BackgroundTransparency = 0 -- Start fully visible (no fade-in)
+	splashFrame.ZIndex = 10 -- Ensure it appears above other GUI elements
+	
+	-- Adjust the ImageLabel size and position
+	imageLabel.Size = UDim2.new(0, 371, 0, 275) -- Set size to {0, 371}, {0, 275}
+	imageLabel.Position = UDim2.new(0.174, 0, 0.279, 0) -- Set to your desired position
+	imageLabel.AnchorPoint = Vector2.new(0, 0) -- Anchor to top-left corner
+	imageLabel.ImageTransparency = 0 -- Start fully visible (no fade-in)
+	imageLabel.ZIndex = 1 -- Ensure it appears below the TextLabel
+	
+	-- Adjust the TextLabel position and properties
+	titleLabel.Size = UDim2.new(1, 0, 1, 0) -- Set size for the text
+	titleLabel.Position = UDim2.new(0.5, 0, 0.8, 0) -- Position at the bottom center
+	titleLabel.AnchorPoint = Vector2.new(0.5, 0.5) -- Anchor to center
+	titleLabel.Text = "team d33rdud3 join today!" -- Set the text
+	titleLabel.TextColor3 = Color3.new(1, 1, 1) -- White text
+	titleLabel.TextScaled = true -- Scale text to fit
+	titleLabel.BackgroundTransparency = 1 -- Transparent background
+	titleLabel.ZIndex = 2 -- Ensure it appears above the ImageLabel
+	
+	-- Function to animate the splash screen
+	local function startupAnimation()
+		-- Play sound (optional)
+		sound:Play()
+	
+		-- Wait for 2 seconds (keep the Frame fully visible)
+		wait(2)
+	
+		-- Fade out the Frame, ImageLabel, and TextLabel slowly
+		local frameFadeOut = TweenService:Create(splashFrame, TweenInfo.new(2.5), {BackgroundTransparency = 1})
+		local imageFadeOut = TweenService:Create(imageLabel, TweenInfo.new(2.5), {ImageTransparency = 1})
+		local titleFadeOut = TweenService:Create(titleLabel, TweenInfo.new(2.5), {TextTransparency = 1})
+		frameFadeOut:Play()
+		imageFadeOut:Play()
+		titleFadeOut:Play()
+		frameFadeOut.Completed:Wait() -- Wait for the fade-out to finish
+	
+		-- Hide the splash screen
+		splashFrame.Visible = false
+	end
+	
+	-- Start the animation
+	startupAnimation()
+end
+coroutine.wrap(DYDJ_fake_script)()
+local function BRRW_fake_script() -- ScreenGui.2 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local player = game.Players.LocalPlayer
+	local gui = script.Parent  -- The GUI itself
+	
+	-- Ensure the GUI is in PlayerGui
+	gui.Parent = player:WaitForChild("PlayerGui")
+	
+	-- Reattach GUI to PlayerGui on respawn (if needed)
+	player.CharacterAdded:Connect(function()
+		task.wait(0.5)  -- Small delay to ensure respawn is complete
+		gui.Parent = player:WaitForChild("PlayerGui")
+	end)
+end
+coroutine.wrap(BRRW_fake_script)()
+local function VNDJGRN_fake_script() -- ScreenGui.3 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	-- Suppress errors when a UI frame loads in Roblox
+	local function safeLoadFrame(frame)
+		local success, err = pcall(function()
+			-- Ensure the frame exists and is a valid instance
+			if frame and frame:IsA("Frame") then
+				frame.Visible = true
+			else
+				error("Invalid frame provided")
+			end
+		end)
+	
+		if not success then
+			-- Suppress the error instead of printing it
+			warn("Failed to load frame: " .. tostring(err))
+		end
+	end
+	
+	-- Example usage
+	local frame = script.Parent:FindFirstChild("Frame")
+	if frame then
+		safeLoadFrame(frame)
+	end
+end
+coroutine.wrap(VNDJGRN_fake_script)()
+local function PXQBC_fake_script() -- ScreenGui.1 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local scrollingFrame = script.Parent.Frame.Panel.ScrollingFrame -- Adjust to your hierarchy
+	local textBox = script.Parent.Frame.Panel.TextBox -- Update this to your actual TextBox path
+	
+	for _, button in pairs(scrollingFrame:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseButton1Click:Connect(function()
+				local text = button.Text -- Get TextButton's text
+	
+				-- If the TextButton has a TextLabel inside, use its text instead
+				local textLabel = button:FindFirstChild("TextLabel")
+				if textLabel then
+					text = textLabel.Text
+				end
+	
+				textBox.Text = text -- Copy text to the TextBox
+			end)
+		end
+	end
+	
+end
+coroutine.wrap(PXQBC_fake_script)()
+local function AEAQS_fake_script() -- paste1.LocalScript 
+	local script = Instance.new('LocalScript', paste1)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(AEAQS_fake_script)()
+local function BOMXQ_fake_script() -- pastez2.LocalScript 
+	local script = Instance.new('LocalScript', pastez2)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(BOMXQ_fake_script)()
+local function FZON_fake_script() -- pastez3.LocalScript 
+	local script = Instance.new('LocalScript', pastez3)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(FZON_fake_script)()
+local function ROWJ_fake_script() -- pastez4.LocalScript 
+	local script = Instance.new('LocalScript', pastez4)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(ROWJ_fake_script)()
+local function ANRDQX_fake_script() -- pastez5.LocalScript 
+	local script = Instance.new('LocalScript', pastez5)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(ANRDQX_fake_script)()
+local function MBUOWX_fake_script() -- pastez6.LocalScript 
+	local script = Instance.new('LocalScript', pastez6)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(MBUOWX_fake_script)()
+local function AUAS_fake_script() -- paste9.LocalScript 
+	local script = Instance.new('LocalScript', paste9)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(AUAS_fake_script)()
+local function TSPAAAC_fake_script() -- pastez7.LocalScript 
+	local script = Instance.new('LocalScript', pastez7)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(TSPAAAC_fake_script)()
+local function ZXEBZ_fake_script() -- paste8.LocalScript 
+	local script = Instance.new('LocalScript', paste8)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(ZXEBZ_fake_script)()
+local function YKRQP_fake_script() -- pastez10.LocalScript 
+	local script = Instance.new('LocalScript', pastez10)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(YKRQP_fake_script)()
+local function GWQFNY_fake_script() -- _11.LocalScript 
+	local script = Instance.new('LocalScript', _11)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(GWQFNY_fake_script)()
+local function DCZZP_fake_script() -- _12.LocalScript 
+	local script = Instance.new('LocalScript', _12)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(DCZZP_fake_script)()
+local function RZONADL_fake_script() -- _13.LocalScript 
+	local script = Instance.new('LocalScript', _13)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(RZONADL_fake_script)()
+local function SNKTHF_fake_script() -- _18.LocalScript 
+	local script = Instance.new('LocalScript', _18)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(SNKTHF_fake_script)()
+local function IHPW_fake_script() -- _17.LocalScript 
+	local script = Instance.new('LocalScript', _17)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(IHPW_fake_script)()
+local function DXWV_fake_script() -- _16.LocalScript 
+	local script = Instance.new('LocalScript', _16)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(DXWV_fake_script)()
+local function OTGQ_fake_script() -- _21.LocalScript 
+	local script = Instance.new('LocalScript', _21)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(OTGQ_fake_script)()
+local function TFFF_fake_script() -- _20.LocalScript 
+	local script = Instance.new('LocalScript', _20)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(TFFF_fake_script)()
+local function PODYHSE_fake_script() -- _19.LocalScript 
+	local script = Instance.new('LocalScript', _19)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(PODYHSE_fake_script)()
+local function EHRRMT_fake_script() -- _22.LocalScript 
+	local script = Instance.new('LocalScript', _22)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(EHRRMT_fake_script)()
+local function RVOXH_fake_script() -- _23.LocalScript 
+	local script = Instance.new('LocalScript', _23)
+
+	local button = script.Parent -- The TextButton
+	local textLabel = button.TextLabel -- The TextLabel inside the TextButton
+	local textBox = button.Parent.Parent.TextBox -- Adjust path based on your actual TextBox location
+	
+	button.MouseButton1Click:Connect(function()
+		textBox.Text = textLabel.Text
+	end)
+	
+end
+coroutine.wrap(RVOXH_fake_script)()
+local function QFCRS_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(QFCRS_fake_script)()
+local function POSLM_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(POSLM_fake_script)()
+local function UQWXWC_fake_script() -- Panel.LocalScript 
+	local script = Instance.new('LocalScript', Panel)
+
+	local SGui = script.Parent
+	local Frame = SGui:WaitForChild("Frame")
+	local Button = SGui:WaitForChild("Tutorial")
+	
+	Button.MouseButton1Up:Connect(function()
+		Frame.Visible = not Frame.Visible
+	end)
+end
+coroutine.wrap(UQWXWC_fake_script)()
+local function BULXFK_fake_script() -- XButton.LocalScript 
+	local script = Instance.new('LocalScript', XButton)
+
+	local button = script.Parent
+	local frame = button.Parent
+	
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://5955890428"
+	sound.Volume = 1
+	sound.Parent = button
+	
+	local tw = game:GetService("TweenService")
+	local info = TweenInfo.new(0.1, Enum.EasingStyle.Circular, Enum.EasingDirection.Out)
+	
+	local newscale = Instance.new("UIScale")
+	newscale.Name = "Scale"
+	newscale.Parent = button
+	
+	local createanimscale = tw:Create(newscale, info, {Scale = 1.2})
+	local returnnormalscale = tw:Create(newscale, info, {Scale = 1})
+	
+	button.MouseEnter:Connect(function()
+		createanimscale:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		returnnormalscale:Play()
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		sound:Play()
+	
+		if frame then
+			frame.Visible = true
+			frame.BackgroundTransparency = 0
+	
+			for _, child in pairs(frame:GetChildren()) do
+				if child:IsA("GuiObject") then
+					child.BackgroundTransparency = 0
+					if child:IsA("TextLabel") or child:IsA("TextButton") then
+						child.TextTransparency = 0
+					end
+				end
+			end
+	
+			local fadeDuration = 0.1
+			local steps = 10
+			local stepDuration = fadeDuration / steps
+	
+			for i = 1, steps do
+				local transparency = i / steps
+				frame.BackgroundTransparency = transparency
+	
+				for _, child in pairs(frame:GetChildren()) do
+					if child:IsA("GuiObject") then
+						child.BackgroundTransparency = transparency
+						if child:IsA("TextLabel") or child:IsA("TextButton") then
+							child.TextTransparency = transparency
+						end
+					end
+				end
+	
+				task.wait(stepDuration)
+			end
+	
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(BULXFK_fake_script)()
+local function EXUMAL_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(EXUMAL_fake_script)()
+local function MUIIV_fake_script() -- OpenButton.LocalScript 
+	local script = Instance.new('LocalScript', OpenButton)
+
+	
+	local button = script.Parent
+	local frame = button.Parent:FindFirstChild("Frame") -- Frame, Change 'Frame' To Your Frame Name
+	local blurEffect = Instance.new("BlurEffect")
+	local lighting = game:GetService("Lighting")
+	
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://5955890428" -- Click Sound
+	sound.Volume = 1
+	sound.Parent = button
+	
+	local tw = game:GetService("TweenService")
+	local info = TweenInfo.new(0.1, Enum.EasingStyle.Circular, Enum.EasingDirection.Out)
+	
+	local newscale = Instance.new("UIScale")
+	newscale.Name = "Scale"
+	newscale.Parent = button
+	
+	local createanimscale = tw:Create(newscale, info, {Scale = 1.2})
+	local returnnormalscale = tw:Create(newscale, info, {Scale = 1})
+	
+	button.MouseEnter:Connect(function()
+		createanimscale:Play()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		returnnormalscale:Play()
+	end)
+	
+	local function fadeButton(isFadingIn)
+		local fadeDuration = 0.1
+		local steps = 10
+		local stepDuration = fadeDuration / steps
+		local transparency = isFadingIn and 1 or 0
+	
+		for i = 1, steps do
+			button.TextTransparency = transparency - (i / steps)
+			button.BackgroundTransparency = transparency - (i / steps)
+			task.wait(stepDuration)
+		end
+	
+		button.TextTransparency = isFadingIn and 0 or 1
+		button.BackgroundTransparency = isFadingIn and 0 or 1
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		sound:Play()
+	
+		fadeButton(false)
+		button.Visible = false
+	
+		blurEffect.Size = 0
+		blurEffect.Parent = lighting
+	
+		local blurTween = tw:Create(blurEffect, TweenInfo.new(0.1, Enum.EasingStyle.Circular, Enum.EasingDirection.Out), {Size = 10})
+		blurTween:Play()
+	
+		if frame then
+			frame.Visible = true
+			frame.BackgroundTransparency = 1
+	
+			for _, child in pairs(frame:GetChildren()) do
+				if child:IsA("GuiObject") then
+					child.BackgroundTransparency = 1
+					if child:IsA("TextLabel") or child:IsA("OpenButton") then
+						child.TextTransparency = 1
+					end
+				end
+			end
+	
+			local fadeDuration = 0.1
+			local steps = 10
+			local stepDuration = fadeDuration / steps
+	
+			for i = 1, steps do
+				local transparency = 1 - (i / steps)
+				frame.BackgroundTransparency = transparency
+	
+				for _, child in pairs(frame:GetChildren()) do
+					if child:IsA("GuiObject") then
+						child.BackgroundTransparency = transparency
+						if child:IsA("TextLabel") or child:IsA("OpenButton") then
+							child.TextTransparency = transparency
+						end
+					end
+				end
+	
+				task.wait(stepDuration)
+			end
+	
+			frame.BackgroundTransparency = 0
+			for _, child in pairs(frame:GetChildren()) do
+				if child:IsA("GuiObject") then
+					child.BackgroundTransparency = 0
+					if child:IsA("TextLabel") or child:IsA("OpenButton") then
+						child.TextTransparency = 0
+					end
+				end
+			end
+		end
+	end)
+	
+	local closeButton = frame:FindFirstChild("XButton")
+	if closeButton then
+		closeButton.MouseButton1Click:Connect(function()
+			local fadeDuration = 0.1
+			local steps = 10
+			local stepDuration = fadeDuration / steps
+	
+			for i = 1, steps do
+				local transparency = i / steps
+				frame.BackgroundTransparency = transparency
+	
+				for _, child in pairs(frame:GetChildren()) do
+					if child:IsA("GuiObject") then
+						child.BackgroundTransparency = transparency
+						if child:IsA("TextLabel") or child:IsA("TextButton") then
+							child.TextTransparency = transparency
+						end
+					end
+				end
+	
+				task.wait(stepDuration)
+			end
+	
+			frame.Visible = false
+			fadeButton(true)
+			button.Visible = true
+	
+			local blurTweenOut = tw:Create(blurEffect, TweenInfo.new(0.1, Enum.EasingStyle.Circular, Enum.EasingDirection.Out), {Size = 0})
+			blurTweenOut:Play()
+	
+			blurTweenOut.Completed:Connect(function()
+				blurEffect.Parent = nil
+			end)
+		end)
+	end
+end
+coroutine.wrap(MUIIV_fake_script)()
